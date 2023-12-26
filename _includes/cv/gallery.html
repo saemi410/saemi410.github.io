@@ -1,0 +1,14 @@
+<div class="font-weight-light col-xs-12 cl-sm-12 col-md-12 mt-2 mt-md-0">
+    <p class="gallery-intro">{{ entry.note }}</p>
+</div>
+
+<div class="gallery">
+    {% for content in entry.contents %}
+    {%- assign img_path = content.url | prepend: '/assets/img/' -%}
+    <figure class="gallery-item">
+        <img src="{{img_path}}" alt="{{ content.caption }}">
+    </figure>
+    {% endfor %}
+</div>
+
+

@@ -190,6 +190,62 @@ ul.timeline li::before {
   top: -0.5rem;
 }
 
+/* Base styles for the gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.gallery-item {
+  flex: 0 0 calc(20% - 10px); /* Each item takes up 20% of the container's width minus the gap */
+  margin: 5px; /* Margin around each item */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height calculation */
+  overflow: hidden; /* Hides any part of the image that exceeds the boundaries of the container */
+}
+
+.gallery-item img {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Auto height for maintaining aspect ratio */
+  object-fit: cover; /* Ensures the image covers the square area, cropping as needed */
+  aspect-ratio: 1 / 1; /* Ensures the image is always square */
+}
+
+/* Media query for large screens - 5 images per row */
+@media (min-width: 1024px) {
+  .gallery-item {
+    flex: 0 0 calc(33.33% - 10px); /* Adjust for 5 items per row minus the gap */
+  }
+}
+
+/* Media query for medium screens - 4 images per row */
+@media (max-width: 1023px) and (min-width: 601px) {
+  .gallery-item {
+    flex: 0 0 calc(33.33% - 10px); /* Adjust for 4 items per row minus the gap */
+  }
+}
+
+/* Media query for small screens - 2 images per row */
+@media (max-width: 600px) {
+  .gallery-item {
+    flex: 0 0 calc(50% - 10px); /* Adjust for 2 items per row minus the gap */
+  }
+}
+
+
+/* Captions */
+.gallery-item figcaption {
+  text-align: center;
+}
+
+.gallery-intro p {
+  margin-bottom: 50px; /* Existing bottom margin */
+  text-indent: 20px; /* Indents the first line of the paragraph */
+  /* Additional styles */
+}
+
+
 /*ul.timeline::before {
      content: "●";
      font-size: 1em;
