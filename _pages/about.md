@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, there! :laughing: I am currently a third-year integrated Ph.D. student in the [Computer Science and Engineering department](https://cse.postech.ac.kr) at [Pohang University of Science and Technology](https://www.postech.ac.kr) (POSTECH). I am also a member of the [Machine Learning Lab.](https://ml.postech.ac.kr), where I am supervised by Prof. [Dongwoo Kim](http://dongwookim-ml.github.io). 
+Hi, there! :laughing: I am currently a fourth-year integrated Ph.D. student in the [Computer Science and Engineering department](https://cse.postech.ac.kr) at [Pohang University of Science and Technology](https://www.postech.ac.kr) (POSTECH). I am also a member of the [Machine Learning Lab.](https://ml.postech.ac.kr), where I am supervised by Prof. [Dongwoo Kim](http://dongwookim-ml.github.io). 
 
 My research goal is to make AI safe and robust. In particular, I am currently interested in unlearning and privacy-preserving in generative models, focusing on preventing the generation of specific concepts.
 
