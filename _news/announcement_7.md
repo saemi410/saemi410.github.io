@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:trophy: I won First Place in the [Graduate Student Venture Investment Competition](https://www.bloter.net/news/articleView.html?idxno=628473) hosted by the Korea Venture Capital Association 
+:trophy: I won First Place in the [Graduate Student Venture Investment Competition](https://www.bloter.net/news/articleView.html?idxno=628473)
