@@ -20,82 +20,65 @@
       year: 2017.02 - 2022.02
 
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
-
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
-
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
-
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2025
-      items:
-        - Graduate Student Council President of the Computer Science and Engineering department
-    - year: 2024
-      items:
-        - First Place in the Graduate Student Venture Investment Competition
-    - year: 2024
-      items: 
-        - Research Subsidies for Ph.D. Candidates
-    - year: 2024
-      items: 
-        - Hyundai Motor Chung Mong-Koo Scholarship
-    - year: 2023
-      items: 
-        - Outstanding Paper Award at KAIA 2023
-    - year: 2022
-      items: 
-        - POSTECH Alchemist Fellowship
-    - year: 2019
-      items: 
-        - Cheon Sin‐il Scholarship
-    - year: 2018, 2019
-      items: 
-        - BOEING Scholarship
-    - year: 2017
-      items: 
-        - POSTECH Global Leadership Program
+    - title: 1st Place - Graduate Venture Investment Competition (VCIC Korea)
+      institution: Venture Capital Investment Competition (VCIC)
+      year: 2024.12
+      description:
+        - Advanced to and represented POSTECH at the Global Finals in North Carolina (Apr. 2025).
+    - title: Hyundai Motor Chung Mong-Koo Scholarship
+      institution: Hyundai Motor Chung Mong-Koo Foundation
+      year: 2024.09
+      description:
+        - Doctoral fellowship awarded for excellence in AI safety research; full tuition and merit-based research support.
+    - title: Research Subsidy for Ph.D. Candidates
+      institution: National Research Foundation of Korea (NRF)
+      year: 2024.09
+      description:
+        - Two-year subsidy (≈$35,000 total) supporting independent doctoral research.
+    - title: Outstanding Paper Award
+      institution: Korea Artificial Intelligence Association (KAIA)
+      year: 2023.07
+      description:
+        - Recognized for "Feature Unlearning for Pre-trained GANs and VAEs."
+    - title: POSTECH Alchemist Fellowship
+      year: 2022.09
+      description:
+        - Awarded for entrepreneurial potential (≈$7,000)
+    - title: Cheon Sin-il Scholarship
+      year: 2019
+    - title: BOEING Scholarship 
+      year: 2018, 2019
+    - title: POSTECH Global Leadership Program 
+      year: 2017
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Graduate Student Council President
+      institution: Dept. of CSE, POSTECH
+      year: 2025
+    - title: Oral Presentation | Privacy-Preserving AI
+      institution: ExploreCSR Workshop
+      year: 2023.03
+      description:
+        - ExploreCSR is a research-focused initiative for building computing research pathways and community, supported by Google Research.
+        - Presented AAAI 2023/2024 papers on skeleton action anonymization and feature unlearning.
+      linkitems:
+        - link: "https://explorecsr.postech.ac.kr"
+          linkname: "Workshop Website"
+        - link: "https://research.google/programs-and-events/past-programs/explorecsr/?filtertab=2022"
+          linkname: "About ExploreCSR"
+        
+    - title: Industry Project | Anomaly Detection for Sensor Temperature Forecasting
+      institution: Korea Electric Power Corporation (KEPCO)
+      year: 2022.08 - 2024.04
+      description:
+        - Developed an STGCN-based forecasting and anomaly scoring pipeline for multivariate sensor temperature time series.
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
 
 - title: Hobby
   type: gallery
