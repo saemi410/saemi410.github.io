@@ -75,7 +75,10 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
-          bundler-cache: true
+      - name: Install dependencies
+        run: |
+          bundle lock --add-platform x86_64-linux || true
+          bundle install
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
