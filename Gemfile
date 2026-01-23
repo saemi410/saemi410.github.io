@@ -25,3 +25,9 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+# Ruby 3.3+ stdlib gems (required for compatibility)
+gem 'csv'
+gem 'logger'
+gem 'ostruct'
+gem 'observer'
