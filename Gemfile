@@ -31,3 +31,6 @@ gem 'csv'
 gem 'logger'
 gem 'ostruct'
 gem 'observer'
+
+# Fix bibtex-ruby Ruby 3.3 compatibility (needs racc dependency)
+gem 'bibtex-ruby', '>= 6.1.0'
