@@ -58,6 +58,11 @@
 - title: Experience
   type: time_table
   contents:
+      - title: Visiting Researcher
+      institution: Computational Media Lab, Australian National University
+      year: 2026.03 - 2026.06
+      description:
+        - Visiting researcher hosted by Prof. Lexing Xie
     - title: Graduate Student Council President
       institution: Dept. of CSE, POSTECH
       year: 2025
