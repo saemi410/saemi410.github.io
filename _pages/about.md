@@ -19,9 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a fourth-year integrated Ph.D. student in the [Department of Computer Science and Engineering](https://cse.postech.ac.kr) at [Pohang University of Science and Technology](https://www.postech.ac.kr) (POSTECH). I am a member of the [Machine Learning Lab.](https://ml.postech.ac.kr), where I am supervised by Prof. [Dongwoo Kim](http://dongwookim-ml.github.io). 
+I am currently a fifth-year integrated Ph.D. student in the [Department of Computer Science and Engineering](https://cse.postech.ac.kr) at [Pohang University of Science and Technology](https://www.postech.ac.kr) (POSTECH). I am a member of the [Machine Learning Lab.](https://ml.postech.ac.kr), where I am supervised by Prof. [Dongwoo Kim](http://dongwookim-ml.github.io). 
 
-My research goal is to develop safe and robust generative models. I study how generative AI systems can be designed to be reliable, controllable, and suitable for real-world deployment. While my primary contributions focus on generative vision models, I am broadly interested in extending these principles to large language models and physical AI systems, where safety and robustness concerns are especially critical.
+My research goal is to develop safe and robust generative models. I study how generative AI systems can be designed to be reliable, controllable, and suitable for real-world deployment. While my primary contributions focus on generative vision models, I am also broadly interested in extending these principles to large language models, where safety and robustness concerns are increasingly critical.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
