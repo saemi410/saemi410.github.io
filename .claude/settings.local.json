@@ -9,7 +9,9 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(head -20 /Users/sammy/Documents/saemi410.github.io/_posts/*.md)",
+      "Bash(ls:*)"
     ]
   }
 }

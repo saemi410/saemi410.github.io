@@ -3,7 +3,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-.DS_store
+.DS_Store
 .ruby-version
 .tweet-cache
 Gemfile.lock
@@ -12,3 +12,20 @@ node_modules/
 vendor
 .idea
 .venv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker (not needed for GitHub Pages)
+Dockerfile
+docker-compose.yml
+docker-local.yml
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Claude Code
+.claude/
