@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:gift_heart: Two paper has been accepted at [ICML 2026 workshop](https://iccv.thecvf.com). See you in Seoul :kr:
+:gift_heart: Two paper has been accepted at [ICML 2026 workshop](https://icml.cc). See you in Seoul :kr:
