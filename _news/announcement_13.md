@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:gift_heart: Two papers have been accepted at [EMNLP](https://2026.emnlp.org).
+:gift_heart: Two papers have been accepted as orals at [EMNLP](https://2026.emnlp.org).

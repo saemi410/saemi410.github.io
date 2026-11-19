@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:tada: [Our paper](https://arxiv.org/abs/2510.00777) won the Outstanding Paper Award at [EMNLP 2026](https://2026.emnlp.org)! Both of our EMNLP papers were also selected for oral presentations.
+:tada: [Our paper](https://arxiv.org/abs/2510.00777) won the Outstanding Paper Award from [EMNLP 2026](https://2026.emnlp.org)
