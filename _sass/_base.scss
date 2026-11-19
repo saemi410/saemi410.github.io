@@ -619,6 +619,32 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
 
+      .venue {
+        font-weight: 600;
+
+        &.workshop {
+          font-weight: normal;
+          color: var(--global-text-color-light);
+        }
+
+        .pub-tag {
+          display: inline-block;
+          margin-left: 0.4rem;
+          padding: 0 0.5rem;
+          border-radius: 0.25rem;
+          font-size: 0.75rem;
+          font-weight: 600;
+          line-height: 1.5;
+          vertical-align: middle;
+          color: #fff;
+          background-color: var(--global-theme-color);
+
+          &.award {
+            background-color: #a87400;
+          }
+        }
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);

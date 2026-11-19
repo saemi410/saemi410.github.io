@@ -107,37 +107,46 @@
 
         </div>
 
-        <!-- Journal/Book title and date -->
+        <!-- Venue (short name + year), with highlight badges -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
-          {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+          {%- assign venue = entry.journal -%}
         {%- elsif proceedings contains entry.type -%}
-          {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- assign venue = entry.booktitle -%}
         {%- elsif thesis contains entry.type -%}
-          {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
+          {%- assign venue = entry.school -%}
         {%- else -%}
-          {%- capture entrytype -%}{%- endcapture -%}
+          {%- assign venue = "" -%}
         {%- endif -%}
-        {%- if entry.month -%}
-          {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
-        {%- endif -%}
-        {%- if entry.year -%}
-          {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
-        {%- endif -%}
-        {% assign entrytype_text = entrytype | strip_html | strip %}
-        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
-        <div class="periodical">
-          {{ periodical | strip }}
+        {%- comment -%} Venue names containing "@" are workshops and are shown muted. {%- endcomment -%}
+        <div class="periodical venue{% if venue contains '@' %} workshop{% endif %}">
+          {{ venue }} {{ entry.year }}
+          {%- if entry.highlights -%}
+            {%- assign highlights = entry.highlights | split: ';' -%}
+            {%- for raw_h in highlights -%}
+              {%- assign h = raw_h | strip -%}
+              <span class="pub-tag{% if h contains 'Award' %} award{% endif %}">{% if h contains 'Award' %}🏆 {% endif %}{{ h }}</span>
+            {%- endfor -%}
+          {%- endif -%}
         </div>
         {%- if entry.workshop_booktitle -%}
-        <div class="periodical">
-          <em>In {{ entry.workshop_booktitle }}</em>
+        <div class="periodical venue workshop">
+          {{ entry.workshop_booktitle }}
+          {%- if entry.workshop_highlights -%}
+            {%- assign highlights = entry.workshop_highlights | split: ';' -%}
+            {%- for raw_h in highlights -%}
+              {%- assign h = raw_h | strip -%}
+              <span class="pub-tag{% if h contains 'Award' %} award{% endif %}">{% if h contains 'Award' %}🏆 {% endif %}{{ h }}</span>
+            {%- endfor -%}
+          {%- endif -%}
         </div>
         {%- endif -%}
+        {%- if entry.note -%}
         <div class="periodical">
           {{ entry.note | strip }}
         </div>
+        {%- endif -%}
 
           <!-- Links/Buttons -->
           <div class="links">
