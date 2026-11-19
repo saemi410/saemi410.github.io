@@ -24,6 +24,11 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: Outstanding Paper Award
+      institution: Empirical Methods in Natural Language Processing (EMNLP 2026)
+      year: 2026.11
+      description:
+        - Recognized for "In-Place Feedback: A New Paradigm for Guiding LLMs in Multi-Turn Reasoning."
     - title: 1st Place - Graduate Venture Investment Competition (VCIC Korea)
       institution: Venture Capital Investment Competition (VCIC)
       year: 2024.12
@@ -90,14 +95,14 @@
   note: "My hobby is crocheting 🧶 I enjoy making small handmade items through crocheting and giving them to people around me 💝"
   contents:
     - url: "knit1.png"
-      caption: "Caption for Image 1"    
+      caption: "Crocheted four-leaf clover keychains in mint yarn"    
     - url: "knit2.png"
-      caption: "Caption for Image 2"
+      caption: "Black-and-white checkered crochet square"
     - url: "knit3.png"
-      caption: "Caption for Image 3"
+      caption: "White crochet coaster with yellow and purple rosebud trim"
     - url: "knit4.png"
-      caption: "Caption for Image 4"    
+      caption: "Frog-face crochet card cases"    
     - url: "knit5.jpeg"
-      caption: "Caption for Image 5"
+      caption: "White crochet drawstring pouches with tulip-stitch borders"
     - url: "knit6.jpeg"
-      caption: "Caption for Image 6"
+      caption: "Red bird-shaped crochet hanging ornament"
